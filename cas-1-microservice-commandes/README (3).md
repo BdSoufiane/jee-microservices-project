@@ -7,9 +7,8 @@ en utilisant Spring Boot et Spring Cloud, sans écrire de requêtes SQL manuelle
 ---
 
 ## 2. Équipe de développement
-- Nom Prénom
-- Filière / Groupe
-- Email (optionnel)
+- BADDAH SOUFIANE - AHAJI ZAKARIAE
+- 5IIR11
 
 ---
 
@@ -75,5 +74,6 @@ mvn spring-boot:run
 Microservice Commandes : http://localhost:8081
 
 H2 Console : http://localhost:8081/h2-console
+
 
 Health Check : http://localhost:8081/actuator/health
