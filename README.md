@@ -5,13 +5,13 @@ Projet réalisé dans le cadre du module **JEE** : mise en œuvre d’une archit
 ---
 
 ## 👥 Équipe de développement
-- **Soufiane Baddah**  
-- Groupe / Filière : *(à compléter)*  
+- **Soufiane Baddah - Zakariae Ahaji**  
+- 5IIR11  
 - Année : **2025–2026**
 
 ---
 
-## 📌 Objectifs pédagogiques
+##  Objectifs pédagogiques
 - Développer des microservices REST avec **Spring Boot**
 - Utiliser **Spring Data JPA** (CRUD *sans SQL explicite*)
 - Centraliser la configuration avec **Spring Cloud Config**
@@ -22,11 +22,11 @@ Projet réalisé dans le cadre du module **JEE** : mise en œuvre d’une archit
 
 ---
 
-## 🧩 Contenu du dépôt
+##  Contenu du dépôt
 Le dépôt contient deux dossiers principaux :
 
-### ✅ Étude de cas 1 — Microservice Commandes + Config Server
-📁 `cas-1-microservice-commandes/`  
+###  Étude de cas 1 — Microservice Commandes + Config Server
+ `cas-1-microservice-commandes/`  
 Fonctionnalités principales :
 - CRUD **COMMANDE** (0 SQL avec Spring Data JPA)
 - H2 Database + console
@@ -34,12 +34,12 @@ Fonctionnalités principales :
 - Propriété dynamique : `mes-config-ms.commandes-last` (N derniers jours) + refresh à chaud
 - **Actuator** + Health check personnalisé (UP si table COMMANDE non vide)
 
-➡️ Détails + exécution : voir `cas-1-microservice-commandes/README.md`
+ Détails + exécution : voir `cas-1-microservice-commandes/README.md`
 
 ---
 
-### ✅ Étude de cas 2 — Architecture Microservices complète
-📁 `cas-2-microservices/`  
+###  Étude de cas 2 — Architecture Microservices complète
+ `cas-2-microservices/`  
 Composants :
 - `eureka-server` : Discovery Server
 - `api-gateway` : Point d’entrée unique (Spring Cloud Gateway)
@@ -49,11 +49,11 @@ Composants :
 - Résilience : **Resilience4j** (timeout + fallback)
 - Documentation : **Swagger UI / OpenAPI**
 
-➡️ Détails + exécution : voir `cas-2-microservices/README.md`
+ Détails + exécution : voir `cas-2-microservices/README.md`
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 - Java 17
 - Maven
 - Spring Boot
@@ -68,7 +68,7 @@ Composants :
 
 ---
 
-## ▶️ Exécution rapide
+##  Exécution rapide
 
 ### Cas 1 (Config Server + Commandes)
 1. Lancer **config-server**
@@ -76,7 +76,7 @@ Composants :
 3. Tester via Postman / navigateur
 4. Vérifier Actuator (`/actuator/health`) et refresh (`/actuator/refresh`)
 
-📌 Guide complet : `cas-1-microservice-commandes/README.md`
+ Guide complet : `cas-1-microservice-commandes/README.md`
 
 ---
 
@@ -88,11 +88,11 @@ Ordre recommandé :
 4. **api-gateway**
 5. (Option) 2ème instance produit pour démontrer le load balancing
 
-📌 Guide complet : `cas-2-microservices/README.md`
+ Guide complet : `cas-2-microservices/README.md`
 
 ---
 
-## ✅ Démonstration (livrable)
+##  Démonstration (livrable)
 La démonstration peut être réalisée en suivant les tests listés dans les README de chaque cas :
 - Enregistrement des services dans **Eureka**
 - Routage via **API Gateway**
@@ -103,18 +103,17 @@ La démonstration peut être réalisée en suivant les tests listés dans les RE
 
 ---
 
-## 📸 Screenshots (livrable)
+##  Screenshots (livrable)
 Les captures d’écran sont disponibles ici :
 - Cas 1 : `cas-1-microservice-commandes/screen/partie1/`
 - Cas 2 : `cas-2-microservices/screen/partie2` 
 
 ---
 
-## 📎 Remarques
+##  Remarques
 - Les ports peuvent être modifiés dans `application.properties` si besoin.
 - Pour éviter les conflits de ports, ne pas lancer Cas 1 et Cas 2 simultanément sur les mêmes ports.
 
 ---
 
-## 📄 Licence
-Projet académique – usage pédagogique.
+
