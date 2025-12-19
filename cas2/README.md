@@ -1,7 +1,7 @@
 # Étude de cas 2 – Architecture Microservices
 
 ## Team
-- Nom Prénom / Groupe
+- BADDAH SOUFIANE - AHAJI ZAKARIAE / 5IIR11
 
 ## Services & Ports
 - Eureka Server : http://localhost:8761
@@ -25,4 +25,5 @@
 - CircuitBreaker : http://localhost:8081/actuator/circuitbreakers/produit
 
 ## Screenshots
-Voir `screenshots/`
+Voir `screen/partie2`
+
